@@ -1,0 +1,133 @@
+
+table, th, td {
+    width: 85%;
+    margin: 0% 8%;
+    box-sizing: border-box;
+    /*border-bottom: 1px solid blue; */
+    border-collapse:separate; 
+    border-spacing:0 10px; 
+}
+
+table {
+    
+    margin-bottom: 3% !important;
+}
+
+tr {
+    
+    margin-bottom: 1%;
+}
+
+td {
+    padding: 1% 1%;
+    border-bottom: thin solid blue;
+}
+th {
+    text-align: left;
+    padding: 1%;
+    background-color: orange;
+}
+
+.big_part {
+    width: 85%;
+    margin-bottom: 1%;
+    
+}
+
+.small_part {
+    text-align: center !important;
+    /*border: 1px solid blue !important; */
+    background-color: orange !important;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.iconz {
+    
+    background-image: url(../img/logout_escaping_business_man.png);
+}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100, !important; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111, !important; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181, !important;
+  display: block, !important;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1, !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute, !important;
+  top: 0, !important;
+  right: 25px, !important;
+  font-size: 36px, !important;
+  margin-left: 50px, !important;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width:659px){
+    
+    #container{
+        Width:100%;
+    }
+    .css-selector h5{
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    #logo {
+    width: 100%;
+    height: 120px;
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+    border: thin solid blue;
+    }
+    .banner {
+        width: 100%;
+        height: 80px;
+        padding: 5px;
+        background-color: #5533ff;
+        
+        
+    }
+    
+    
+    
+    .mag {
+    margin-top: 100px;
+    }
+}

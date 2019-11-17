@@ -1,0 +1,222 @@
+@import 'https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap';
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    color: darkslateblue;
+    font-family: 'Didact Gothic', timesnewroman;
+    margin: 0;
+    background-color: azure; 
+}
+
+body a:link, a:visited {
+    text-decoration: none;
+}
+
+h2{
+    font-size: 250%;
+    font-weight: 700;
+    padding: 2%;
+}
+
+h3{
+    font-size: 150%;
+    font-weight: 600;
+    padding: 5% 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 100%;
+    font-weight: 500;
+    padding: 1% 0;
+    text-align: center;
+}
+
+
+
+#login input[type=text],input[type=password] {
+    width: 90%;
+    padding: 2%;
+    margin: 2% 5%;
+    box-sizing: border-box;
+    border: 2px solid aqua;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    font-size: 1em;
+}
+
+#login input[type=text]:focus,input[type=password]:focus {
+    border: 3px solid darkslateblue;
+}
+
+#login input[type=submit] {
+    width: 90%;
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2% 5%;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}
+
+#logo {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    border-bottom: thin solid orange;
+    
+}
+
+.VHT_details {
+    width: 90%;
+    margin: 0 5%;
+    color: darkgray;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1 em;
+    /* background-color:darkgray; */
+}
+
+span.VHT_labels {
+    font-weight: 700;
+    color: darkred;
+}
+.VHT_bloc {
+    display: inline-block;
+    margin: 0.5% 0;
+}
+
+span.VHT_time {
+    margin: 0 0 0 8%;
+}
+
+.summary {
+    width: 90%;
+    height: 34px;
+    margin: 1% 5%;
+    padding: 1%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: darkslateblue;
+}
+
+.summary a:link, a:visited {
+    cursor: pointer;
+    color: white;   
+}
+.see {
+    width: 80% !important;
+    box-sizing: border-box;
+    padding: 1% 2% 0;
+    float: left;
+}
+
+.seeNo {
+    width: 20% !important;
+    box-sizing: border-box;
+    padding: 1% 2% 0 0;
+    text-align: right;
+    float: left;
+}
+
+/* Repeat to be  rectified later */
+
+.summary2 {
+    width: 90%;
+    height: 34px;
+    margin: 1% 5%;
+    padding: 1%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: darkslateblue;
+}
+
+.summary2 a:link, a:visited {
+    cursor: pointer;
+    color: white; 
+    font-size: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+.see2 {
+    width: 90% !important;
+    box-sizing: border-box;
+    padding: 1% 2% 0;
+    float: left;
+}
+
+/* Repeat ends here! */
+
+.Othe_info {
+    width: 90%;
+    height: 120px;
+    margin: 5% 0 0 5%;
+    box-sizing: border-box;
+    clear:right;
+     
+}
+
+.others {
+    width: 30%;
+    height: auto;
+    margin: 0 3% 0 0;
+    padding: 7% 0 0 5%;
+    border-radius: 50%;
+    border: thin solid pink;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.others:after {
+    content: "";
+    padding-bottom: 80%;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.others2 {
+    margin: 0 !important;
+}
+
+#back_back {
+    width: 30px;
+    height: 30px;
+    margin: 0 5%;
+    border-radius: 50%;
+    border: thin solid blue;
+}
+
+.username {
+    display: inline-block;
+    margin-top: 0 !important;
+    margin-left: calc( 5% + 30px )!important;
+    margin-top: 5%;
+    vertical-align: top;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.var {
+    color: darkslategrey;
+    width: 50%;
+    margin: 0 25% !important;
+    background-color: lightgray;
+    font-weight: 700 !important;
+    border-radius: 10px;
+}
+
+
